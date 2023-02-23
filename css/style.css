@@ -119,14 +119,6 @@ hr {
     margin-left: 45px;
 }
 
-.parte2 p {
-    display: inline-block;
-    width: 120px;
-    margin-bottom: 13px;
-    padding-left: 5px;
-    border-left: 1px solid #5BD3B7;
-}
-
 .parte2 h2 {
     color: #5BD3B7;
 }
@@ -247,10 +239,11 @@ hr {
 
     .parte2 p {
         display: inline-block;
-        width: 120px;
+        width: 140px;
         margin-bottom: 13px;
         padding-left: 5px;
         border-left: 1px solid #5BD3B7;
+        border: 1px solid red;
     }
 
     .caixa-vantagens1, .caixa-vantagens2 {
