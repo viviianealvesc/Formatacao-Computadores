@@ -31,6 +31,10 @@ header {
     gap: 47px;
 }
 
+.cabecalho-menu a:hover {
+    color: #5BD3B7;
+}
+
 .cabecalho-menu-item {
     text-decoration: none;
     color: white;
@@ -191,7 +195,7 @@ hr {
 
 
                    /*RESPONSIVO*/
-@media all and (max-width: 500px) {
+@media all and (max-width: 520px) {
 
      /*Cabeçalho*/
 
@@ -222,12 +226,12 @@ hr {
 
     #parte1 h2 {
         width: 280px;
-        padding-top: 15px;
+        padding-top: 35px;
     }
 
     .conteudo1 {
         display: block;
-        height: 350px;
+        height: 390px;
     }
 
     .conteudo1 img {
@@ -245,6 +249,9 @@ hr {
 
     .caixas {
         margin-bottom: 20px;
+        width: 300px;
+        position: relative;
+        left: 30px;
     }
 
     .parte2 {
@@ -265,4 +272,6 @@ hr {
         margin-bottom: 12px;
     }
 }
+
+/*Media query para o tamanho 280*/
 
