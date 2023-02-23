@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+
+
+               /*BARRA DE NAVEGAÇÃO*/
+header {
+    display: flex;
+    background: #161616;
+   
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 47px;
+}
+
+.cabecalho-menu-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+} 
+
+
+h1 {
+    color: white;
+    font-size: 24px;
+    font-weight: 5px;
+    padding: 8px;
+}
+
+
+#title span {
+    font-size: 10px;
+    display: block;
+    color: #5BD3B7;
+    position: relative;
+    top: -8px;
+}
+
+
+                   /*CONTEUDO 1*/
+.conteudo1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #0C0C0C, 70%, #1D3A35, #1E3B36);
+    height: 250px;
+}
+
+#parte1 {
+    margin-left: 20px;
+}
+
+#parte1 h2 {
+    width: 390px; 
+    margin-left: 28px;
+    color: white;
+}
+
+
+#parte1 p {
+    width: 300px;  
+    color: rgb(0, 0, 0);
+    margin-left: 28px;
+}
+
+#parte1 span {
+    color: #5BD3B7;
+}
+
+
+hr {
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 28px;
+}
+
+
+#parte1 p {
+    color: white;
+} 
+
+.imagem-principal {
+    width: 200px;
+    filter: brightness(75%);
+}
+
+
+                     /*CONTEUDO 2*/
+.conteudo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #000;
+    color: white; 
+}
+
+.parte2 {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.parte2 h2 {
+    color: #5BD3B7;
+}
+
+.Windows {
+    font-size: 10pt;
+    padding: 2px;
+}
+
+.caixas {
+    display: flex;
+    width: 400px;
+    margin-top: 40px;
+    height: 250px;
+    flex-wrap: wrap;   
+    text-align: center;
+}
+
+.caixas-texto {
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.caixa-vantagens1, .caixa-vantagens2 {
+    width: 150px;
+    height: 100px;   
+    margin-left: 20px;
+    border-radius: 8px;
+
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 20px;
+    color: #5BD3B7;
+}
+
+.caixa-vantagens1  {
+    display: inline-block;
+    background: #0C0C0C;
+    padding: 5px;
+}
+
+.caixa-vantagens2  {
+    display: inline-block;
+    background-image: linear-gradient(#010101, #122926);
+    padding: 5px;
+}
+
+
+                      /*ORÇAMENTO*/
+#orcamento {
+    height: 300px;
+    background: #0C0C0C;
+}
+
+
+
+                   /*RESPONSIVO*/
+@media all and (max-width: 500px) {
+
+     /*Cabeçalho*/
+
+    .cabecalho {
+        width: 100%;
+        display: inline-block;
+        text-align: center; 
+    }
+
+    .cabecalho-menu {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .cabecalho-menu a {
+        margin: 15px;
+    }
+
+
+    /*conteudo 1*/
+    #parte1  {
+        font-size: 12px;
+    }
+
+    #parte1 p {
+        width: 250px;
+    }
+
+    #parte1 h2 {
+        width: 280px;
+        padding-top: 15px;
+    }
+
+    .conteudo1 {
+        display: block;
+        height: 350px;
+    }
+
+    .conteudo1 img {
+        width: 200px;
+        position: absolute;
+        left: 70px;
+        right: 70px;
+    }
+
+
+}
+
