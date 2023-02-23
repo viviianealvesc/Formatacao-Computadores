@@ -114,6 +114,11 @@ hr {
     color: white; 
 }
 
+.parte2 {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
 .parte2 p {
     display: inline-block;
     width: 120px;
