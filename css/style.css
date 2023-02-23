@@ -114,9 +114,12 @@ hr {
     color: white; 
 }
 
-.parte2 {
-    margin-top: 40px;
-    margin-left: 45px;
+.parte2 p {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 13px;
+    padding-left: 5px;
+    border-left: 1px solid #5BD3B7;
 }
 
 .parte2 h2 {
@@ -250,7 +253,5 @@ hr {
         margin-left: 13px;
         margin-bottom: 12px;
     }
-
-
 }
 
