@@ -117,18 +117,21 @@ hr {
 .parte2 {
     margin-top: 40px;
     margin-left: 45px;
+    height: 100px;
+    width: 210px;
 }
 
 .parte2 p {
     display: inline-block;
-    width: 150px;
     margin-bottom: 13px;
     padding-left: 5px;
-    border-left: 1px solid #5BD3B7;
+    margin-left: 20px;
+    border-left: 1px solid #5BD3B7;   
 }
 
 .parte2 h2 {
     color: #5BD3B7;
+    margin-bottom: 10px;
 }
 
 .Windows {
@@ -244,10 +247,13 @@ hr {
         margin-bottom: 20px;
     }
 
+    .parte2 {
+        width: 290px;
+    }
+
 
     .parte2 p {
-        display: inline-block;
-        width: 140px;
+        width: 90px;
         margin-bottom: 13px;
         padding-left: 5px;
         border-left: 1px solid #5BD3B7;
