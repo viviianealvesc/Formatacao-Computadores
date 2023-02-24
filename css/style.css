@@ -195,6 +195,12 @@ hr {
 
 
                    /*RESPONSIVO*/
+
+                
+
+
+
+
 @media all and (max-width: 520px) {
 
      /*Cabeçalho*/
@@ -272,6 +278,164 @@ hr {
         margin-bottom: 12px;
     }
 }
+
+@media all and (min-width: 520px) and (max-width: 577px) {
+
+    /*Cabeçalho*/
+
+   .cabecalho {
+       width: 100%;
+       display: inline-block;
+       text-align: center; 
+   }
+
+   .cabecalho-menu {
+       display: inline-block;
+       margin-bottom: 10px;
+   }
+
+   .cabecalho-menu a {
+       margin: 15px;
+   }
+
+
+   /*conteudo 1*/
+   #parte1  {
+       font-size: 12px;
+   }
+
+   #parte1 p {
+       width: 350px;
+   }
+
+   #parte1 h2 {
+       width: 280px;
+       padding-top: 35px;
+   }
+
+   .conteudo1 {
+       display: block;
+       height: 390px;
+   }
+
+   .conteudo1 img {
+       width: 200px;
+       position: absolute;
+       left: 100px;
+       right: 70px;
+   }
+
+   /*conteúdo 2*/
+   .conteudo2, .caixas {
+       display: inline-block;
+       width: 100%;
+   }
+
+   .caixas {
+       margin-bottom: 20px;
+       width: 300px;
+       position: relative;
+       left: 50px;
+   }
+
+   .parte2 {
+       width: 290px;
+   }
+
+
+   .parte2 p {
+       width: 90px;
+       margin-bottom: 13px;
+       padding-left: 5px;
+       border-left: 1px solid #5BD3B7;
+   }
+
+   .caixa-vantagens1, .caixa-vantagens2 {
+       width: 120px;
+       margin-left: 13px;
+       margin-bottom: 12px;
+   }
+}
+
+@media all and (min-width: 577px) and (max-width: 690px) {
+
+    /*Cabeçalho*/
+
+   .cabecalho {
+       width: 100%;
+       display: inline-block;
+       text-align: center; 
+   }
+
+   .cabecalho-menu {
+       display: inline-block;
+       margin-bottom: 10px;
+   }
+
+   .cabecalho-menu a {
+       margin: 15px;
+   }
+
+
+   /*conteudo 1*/
+   #parte1  {
+       font-size: 12px;
+   }
+
+   #parte1 p {
+       width: 480px;
+   }
+
+   #parte1 h2 {
+       width: 280px;
+       padding-top: 35px;
+   }
+
+   .conteudo1 {
+       display: block;
+       height: 390px;
+   }
+
+   .conteudo1 img {
+       width: 200px;
+       position: absolute;
+       left: 100px;
+       right: 70px;
+   }
+
+   /*conteúdo 2*/
+   .conteudo2, .caixas {
+       display: inline-block;
+       width: 100%;
+   }
+
+   .caixas {
+       margin-bottom: 20px;
+       width: 300px;
+       position: relative;
+       left: 20%;
+   }
+
+   .parte2 {
+       width: 290px;
+   }
+
+
+   .parte2 p {
+       width: 90px;
+       margin-bottom: 13px;
+       padding-left: 5px;
+       border-left: 1px solid #5BD3B7;
+   }
+
+   .caixa-vantagens1, .caixa-vantagens2 {
+       width: 120px;
+       margin-left: 13px;
+       margin-bottom: 12px;
+   }
+}
+
+
 
 /*Media query para o tamanho 280*/
 
