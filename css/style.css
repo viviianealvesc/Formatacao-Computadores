@@ -81,8 +81,7 @@ h1 {
 
 
 #parte1 p {
-    width: 300px;  
-    color: rgb(0, 0, 0);
+    width: 300px; 
     margin-left: 28px;
 }
 
@@ -147,6 +146,7 @@ hr {
     display: flex;
     width: 400px;
     margin-top: 40px;
+    margin-bottom: 80px;
     height: 250px;
     flex-wrap: wrap;   
     text-align: center;
@@ -186,19 +186,66 @@ hr {
 }
 
 
-                      /*ORÇAMENTO*/
-#orcamento {
-    height: 300px;
-    background: #0C0C0C;
+                      /*Instalações*/
+#parte-instalacoes {
+    display: flex;
+    height: 900px;
+    background: #000; 
+     
 }
 
+.instalacoes-conteudo {
+    background: #68838b3a;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+}
 
+.instalacoes-conteudo p {
+    color: white;
+}
+
+.instalacoes-conteudo h2 {
+    width: 600px;
+    font-size: 20px;
+    font-weight: 30;
+    color: #5BD3B7;
+    margin-bottom: 20px;
+}
+
+.instalacoes {
+    position: absolute;
+    left: 17%;
+}
+
+                    /*Manutenções*/
+.manutencao-geral h2 {
+    color: #5BD3B7;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 30;
+
+}
+
+.manutencao-geral p {
+    color: white;
+    width: 700px;
+}
+
+.manutencao-geral {
+    background: #68838b3a;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+}
+
+.manutencao-geral img {
+    width: 40px;
+}
 
                    /*RESPONSIVO*/
-
-                
-
-
 
 
 @media all and (max-width: 520px) {
