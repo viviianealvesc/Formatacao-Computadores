@@ -342,7 +342,7 @@ hr {
 
      .instalacoes {
         position: absolute;
-        left: 12%;
+        left: 13%;
         margin-top: 30px;
     }
 
@@ -351,15 +351,15 @@ hr {
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
-        width: 250px;
+        width: 240px;
      }
 
      .instalacoes-conteudo h2{
-        width: 230px;
+        width: 240px;
      }
 
      .manutencao-geral p {
-        width: 230px;
+        width: 240px;
         text-align: center;
         margin-top: 20px;
      }
@@ -370,7 +370,7 @@ hr {
      }
 
      .limpeza p {
-        width: 230px;
+        width: 240px;
         margin-top: 20px;
         text-align: center;  
      }
@@ -383,7 +383,7 @@ hr {
    
 }
 
-@media all and (min-width: 450px) and (max-width: 502px) {
+@media all and (min-width: 450px) and (max-width: 600px) {
 
     /*Cabeçalho*/
 
