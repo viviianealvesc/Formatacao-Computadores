@@ -232,6 +232,9 @@ hr {
     width: 45px;
 }
 
+.manutencao-geral h2 {
+    margin-top: 20px;
+}
 
 .manutencao-geral p, .limpeza p {
     color: white;
@@ -247,7 +250,7 @@ hr {
 }
 
 .manutencao-geral img {
-    width: 35px;
+    width: 30px;
 }
 
 .limpeza {
