@@ -261,7 +261,7 @@ hr {
                    /*RESPONSIVO*/
 
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 440px) {
 
      /*Cabeçalho*/
 
@@ -383,7 +383,7 @@ hr {
    
 }
 
-@media all and (min-width: 400px) and (max-width: 577px) {
+@media all and (min-width: 440px) and (max-width: 577px) {
 
     /*Cabeçalho*/
 
