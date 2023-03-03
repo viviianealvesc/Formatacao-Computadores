@@ -383,7 +383,7 @@ hr {
    
 }
 
-@media all and (min-width: 440px) and (max-width: 590px) {
+@media all and (min-width: 440px) and (max-width: 600px) {
 
     /*Cabeçalho*/
 
@@ -504,7 +504,7 @@ hr {
      }
 }
 
-@media all and (min-width: 590px) and (max-width: 690px) {
+@media all and (min-width: 600px) and (max-width: 690px) {
 
     /*Cabeçalho*/
 
