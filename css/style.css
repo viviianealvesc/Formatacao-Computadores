@@ -189,7 +189,7 @@ hr {
                       /*Instalações*/
 #parte-instalacoes {
     display: flex;
-    height: 900px;
+    height: 1100px;
     background: #000; 
      
 }
@@ -220,15 +220,20 @@ hr {
 }
 
                     /*Manutenções*/
-.manutencao-geral h2 {
+.manutencao-geral h2, .limpeza h2  {
     color: #5BD3B7;
-    margin-top: 20px;
+    margin-top: 7px;
     font-size: 20px;
     font-weight: 30;
 
 }
 
-.manutencao-geral p {
+.limpeza img {
+    width: 45px;
+}
+
+
+.manutencao-geral p, .limpeza p {
     color: white;
     width: 700px;
 }
@@ -242,13 +247,21 @@ hr {
 }
 
 .manutencao-geral img {
-    width: 40px;
+    width: 35px;
+}
+
+.limpeza {
+    background: #68838b3a;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
 }
 
                    /*RESPONSIVO*/
 
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 400px) {
 
      /*Cabeçalho*/
 
@@ -324,9 +337,53 @@ hr {
         margin-left: 13px;
         margin-bottom: 12px;
     }
+
+     /*Instalações*/
+
+     .instalacoes {
+        position: absolute;
+        left: 12%;
+        margin-top: 30px;
+    }
+
+     #parte-instalacoes {
+        height: 1800px;   
+    }
+
+     .instalacoes-conteudo, .manutencao-geral, .limpeza {
+        width: 250px;
+     }
+
+     .instalacoes-conteudo h2{
+        width: 230px;
+     }
+
+     .manutencao-geral p {
+        width: 230px;
+        text-align: center;
+        margin-top: 20px;
+     }
+
+     .manutencao-geral h2 {
+        text-align: center;
+        margin-top: 40px;
+     }
+
+     .limpeza p {
+        width: 230px;
+        margin-top: 20px;
+        text-align: center;  
+     }
+
+     .limpeza h2 {
+        margin-top: 10px;
+        text-align: center; 
+     }
+
+   
 }
 
-@media all and (min-width: 520px) and (max-width: 577px) {
+@media all and (min-width: 400px) and (max-width: 577px) {
 
     /*Cabeçalho*/
 
@@ -382,7 +439,7 @@ hr {
        margin-bottom: 20px;
        width: 300px;
        position: relative;
-       left: 50px;
+       left: 25%;
    }
 
    .parte2 {
@@ -402,6 +459,49 @@ hr {
        margin-left: 13px;
        margin-bottom: 12px;
    }
+
+       /*Instalações*/
+
+       .instalacoes {
+        position: absolute;
+        left: 12%;
+        margin-top: 30px;
+    }
+
+     #parte-instalacoes {
+        height: 1800px;   
+    }
+
+     .instalacoes-conteudo, .manutencao-geral, .limpeza {
+        width: 400px;
+     }
+
+     .instalacoes-conteudo h2{
+        width: 400px;
+        text-align: center;
+     }
+
+     .manutencao-geral p {
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+     }
+
+     .manutencao-geral h2 {
+        text-align: center;
+        margin-top: 40px;
+     }
+
+     .limpeza p {
+        width: 400px;
+        margin-top: 20px;
+        text-align: center;  
+     }
+
+     .limpeza h2 {
+        margin-top: 10px;
+        text-align: center; 
+     }
 }
 
 @media all and (min-width: 577px) and (max-width: 690px) {
