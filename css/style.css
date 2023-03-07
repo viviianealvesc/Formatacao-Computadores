@@ -215,8 +215,7 @@ hr {
 }
 
 .instalacoes {
-    position: absolute;
-    left: 17%;
+    margin: auto;
 }
 
                     /*Manutenções*/
@@ -229,7 +228,7 @@ hr {
 }
 
 .limpeza img {
-    width: 45px;
+    width: 30px;
 }
 
 .manutencao-geral h2 {
@@ -344,8 +343,7 @@ hr {
      /*Instalações*/
 
      .instalacoes {
-        position: absolute;
-        left: 13%;
+        margin: auto;
         margin-top: 30px;
     }
 
@@ -386,7 +384,7 @@ hr {
    
 }
 
-@media all and (min-width: 450px) and (max-width: 600px) {
+@media all and (min-width: 450px) and (max-width: 530px) {
 
     /*Cabeçalho*/
 
@@ -466,8 +464,7 @@ hr {
        /*Instalações*/
 
        .instalacoes {
-        position: absolute;
-        left: 9%;
+        margin: auto;
         margin-top: 30px;
     }
 
@@ -507,7 +504,7 @@ hr {
      }
 }
 
-@media all and (min-width: 600px) and (max-width: 690px) {
+@media all and (min-width: 530px) and (max-width: 750px) {
 
     /*Cabeçalho*/
 
@@ -533,7 +530,7 @@ hr {
    }
 
    #parte1 p {
-       width: 480px;
+       width: 350px;
    }
 
    #parte1 h2 {
@@ -583,9 +580,154 @@ hr {
        margin-left: 13px;
        margin-bottom: 12px;
    }
+
+       /*Instalações*/
+
+       .instalacoes {
+        margin: auto;
+        margin-top: 30px;
+    }
+
+     #parte-instalacoes {
+        height: 1800px;   
+    }
+
+     .instalacoes-conteudo, .manutencao-geral, .limpeza {
+        width: 350px;
+     }
+
+     .instalacoes-conteudo h2{
+        width: 350px;
+        text-align: center;
+     }
+
+     .manutencao-geral p {
+        width: 350px;
+        text-align: center;
+        margin-top: 20px;
+     }
+
+     .manutencao-geral h2 {
+        text-align: center;
+        margin-top: 40px;
+     }
+
+     .limpeza p {
+        width: 350px;
+        margin-top: 20px;
+        text-align: center;  
+     }
+
+     .limpeza h2 {
+        margin-top: 10px;
+        text-align: center; 
+     }
 }
 
+@media all and (min-width: 750px) and (max-width: 890px) {
+
+    /*Cabeçalho*/
+
+   .cabecalho {
+       width: 100%;
+       display: inline-block;
+       text-align: center; 
+   }
+
+   .cabecalho-menu {
+       display: inline-block;
+       margin-bottom: 10px;
+   }
+
+   .cabecalho-menu a {
+       margin: 15px;
+   }
 
 
-/*Media query para o tamanho 280*/
+   /*conteudo 1*/
+   #parte1  {
+       font-size: 12px;
+   }
 
+   #parte1 p {
+       width: 480px;
+   }
+
+   #parte1 h2 {
+       width: 280px;
+       padding-top: 35px;
+   }
+
+   .conteudo1 {
+       height: 290px;
+   }
+
+
+   /*conteúdo 2*/
+   .conteudo2, .caixas {
+       display: inline-block;
+       width: 100%;
+   }
+
+   .caixas {
+       margin-bottom: 20px;
+       width: 300px;
+       position: relative;
+       left: 20%;
+   }
+
+   .parte2 {
+       width: 290px;
+   }
+
+
+   .parte2 p {
+       width: 90px;
+       margin-bottom: 13px;
+       padding-left: 5px;
+       border-left: 1px solid #5BD3B7;
+   }
+
+   .caixa-vantagens1, .caixa-vantagens2 {
+       width: 120px;
+       margin-left: 13px;
+       margin-bottom: 12px;
+   }
+
+   /*Instalações*/
+
+   .instalacoes {
+    margin: auto;
+    margin-top: 30px;
+}
+
+ #parte-instalacoes {
+    height: 1800px;   
+}
+
+ .instalacoes-conteudo, .manutencao-geral, .limpeza {
+    width: 650px;
+ }
+
+ .instalacoes-conteudo h2{
+    width: 590px;
+ }
+
+ .manutencao-geral p {
+    width: 590px;
+    margin-top: 20px;
+ }
+
+ .manutencao-geral h2 {
+    margin-top: 40px;
+ }
+
+ .limpeza p {
+    width: 590px;
+    margin-top: 20px;  
+ }
+
+ .limpeza h2 {
+    margin-top: 10px; 
+ }
+}
