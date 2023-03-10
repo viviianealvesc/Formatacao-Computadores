@@ -7,8 +7,7 @@
 
 body {
     font-size: 100%;
-    font-family: 'Poppins', sans-serif; 
-    
+    font-family: 'Poppins', sans-serif;   
 }
 
 
@@ -16,7 +15,6 @@ body {
 header {
     display: flex;
     background: #161616;
-   
 }
 
 .cabecalho {
@@ -146,7 +144,6 @@ hr {
     display: flex;
     width: 400px;
     margin-top: 40px;
-    margin-bottom: 80px;
     height: 250px;
     flex-wrap: wrap;   
     text-align: center;
@@ -167,15 +164,16 @@ hr {
 }
 
 .icon {
-    width: 25px;
-    height: 25px;
-    margin-top: 20px;
-    color: #5BD3B7;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    position: relative;
+    top: 5px;
 }
 
 .caixa-vantagens1  {
     display: inline-block;
-    background: #0C0C0C;
+    background: #68838b3a;
     padding: 5px;
 }
 
@@ -227,14 +225,6 @@ hr {
 
 }
 
-.limpeza img {
-    width: 30px;
-}
-
-.manutencao-geral h2 {
-    margin-top: 20px;
-}
-
 .manutencao-geral p, .limpeza p {
     color: white;
     width: 700px;
@@ -248,9 +238,6 @@ hr {
     width: 800px;
 }
 
-.manutencao-geral img {
-    width: 30px;
-}
 
 .limpeza {
     background: #68838b3a;
@@ -348,7 +335,7 @@ hr {
     }
 
      #parte-instalacoes {
-        height: 1800px;   
+        height: 1900px;
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
@@ -469,7 +456,7 @@ hr {
     }
 
      #parte-instalacoes {
-        height: 1800px;   
+        height: 100px;   
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
