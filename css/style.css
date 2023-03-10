@@ -344,11 +344,11 @@ hr {
      }
 
      .instalacoes-conteudo h2{
-        width: 240px;
+        width: 270px;
      }
 
      .manutencao-geral p {
-        width: 240px;
+        width: 270px;
         text-align: center;
         margin-top: 20px;
      }
@@ -359,7 +359,7 @@ hr {
      }
 
      .limpeza p {
-        width: 240px;
+        width: 270px;
         margin-top: 20px;
         text-align: center;  
      }
@@ -700,11 +700,11 @@ hr {
  }
 
  .instalacoes-conteudo h2{
-    width: 590px;
+    width: 600px;
  }
 
  .manutencao-geral p {
-    width: 590px;
+    width: 600px;
     margin-top: 20px;
  }
 
@@ -713,7 +713,7 @@ hr {
  }
 
  .limpeza p {
-    width: 590px;
+    width: 600px;
     margin-top: 20px;  
  }
 
