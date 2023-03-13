@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+:root {
+    --cor1: #5BD3B7;
+}
+
 body {
     font-size: 100%;
     font-family: 'Poppins', sans-serif;   
@@ -64,7 +68,7 @@ h1 {
     align-items: center;
     justify-content: space-around;
     background-image: linear-gradient(to right, #0C0C0C, 70%, #1D3A35, #1E3B36);
-    height: 250px;
+    height: 360px;
 }
 
 #parte1 {
@@ -99,6 +103,32 @@ hr {
 #parte1 p {
     color: white;
 } 
+
+.whatsapp-link {
+    color: var(--cor1);
+    padding-top: 35px;
+    margin-bottom: 8px;
+}
+
+.botao {
+    margin-left: 30px;
+    padding: 12px;
+    width: 150px;
+    cursor: pointer;
+    background: #5BD3B7;
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px;
+}
+
+.botao:hover {
+
+    background-color: transparent;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #5BD3B7 inset,
+                0 0 10px 4px #5BD3B7;
+    border-radius: 10px;
+}
 
 .imagem-principal {
     width: 200px;
@@ -168,7 +198,8 @@ hr {
     height: 35px;
     margin-top: 15px;
     position: relative;
-    top: 5px;
+    top: 5px; 
+    filter: drop-shadow(0 0 2px #368e79);
 }
 
 .caixa-vantagens1  {
@@ -290,11 +321,17 @@ hr {
     }
 
     .conteudo1 img {
+        padding-top: 20px;
         width: 200px;
         position: absolute;
         left: 70px;
         right: 70px;
     }
+
+    .conteudo1 {
+        height: 520px;
+    }
+
 
     /*conteúdo 2*/
     .conteudo2, .caixas {
@@ -344,11 +381,11 @@ hr {
      }
 
      .instalacoes-conteudo h2{
-        width: 270px;
+        width: 287px;
      }
 
      .manutencao-geral p {
-        width: 270px;
+        width: 287px;
         text-align: center;
         margin-top: 20px;
      }
@@ -359,7 +396,7 @@ hr {
      }
 
      .limpeza p {
-        width: 270px;
+        width: 287px;
         margin-top: 20px;
         text-align: center;  
      }
@@ -412,11 +449,16 @@ hr {
    }
 
    .conteudo1 img {
-       width: 200px;
-       position: absolute;
-       left: 100px;
-       right: 70px;
-   }
+    padding-top: 20px;
+    width: 200px;
+    position: absolute;
+    left: 70px;
+    right: 70px;
+}
+
+.conteudo1 {
+    height: 520px;
+}
 
    /*conteúdo 2*/
    .conteudo2, .caixas {
@@ -533,11 +575,16 @@ hr {
    }
 
    .conteudo1 img {
-       width: 200px;
-       position: absolute;
-       left: 100px;
-       right: 70px;
-   }
+    padding-top: 20px;
+    width: 200px;
+    position: absolute;
+    left: 70px;
+    right: 70px;
+}
+
+.conteudo1 {
+    height: 520px;
+}
 
    /*conteúdo 2*/
    .conteudo2, .caixas {
