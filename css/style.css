@@ -43,6 +43,10 @@ header {
     font-weight: 300;
 } 
 
+.logo {
+    width: 90px;
+}
+
 
 h1 {
     color: white;
