@@ -7,6 +7,7 @@
 
 :root {
     --cor1: #5BD3B7;
+    --cor2: #161616;
 }
 
 body {
@@ -280,6 +281,35 @@ hr {
     max-width: 800px;
 }
 
+                   /*FOOTER*/
+.rodape {
+    background-color: var(--cor2);
+    height: 30vh;
+    text-align: center;
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+.favicons img{
+    width: 30px;
+    padding-top: 50px;
+}
+
+.criador {
+    margin-top: 7%;
+    background-color: #000;
+}
+
+.criador a {
+    text-decoration: none;
+    color: white;
+}
+
+.criador p {
+    color: white;
+}
                    /*RESPONSIVO*/
 
 
