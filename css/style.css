@@ -24,6 +24,8 @@ header {
 
 .cabecalho {
     display: flex;
+    position: relative;
+    z-index: -100;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -294,11 +296,11 @@ hr {
 
 .favicons img{
     width: 30px;
-    padding-top: 50px;
+    margin: 5px;
+    margin-top: 50px;
 }
 
 .criador {
-    margin-top: 7%;
     background-color: #000;
 }
 
@@ -309,7 +311,10 @@ hr {
 
 .criador p {
     color: white;
+    text-align: center;
 }
+
+
                    /*RESPONSIVO*/
 
 
