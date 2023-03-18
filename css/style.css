@@ -289,10 +289,14 @@ hr {
      background-image: var(--cor3);
 }
 
-.fotos h2 {
+.galeria-fotos h2 {
     text-align: center;
-    padding: 20px;
 }
+
+
+
+
+
 
                    /*FOOTER*/
 .rodape {
@@ -307,17 +311,21 @@ hr {
 .conteudo p {
     max-width: 400px;
     color: white;
+    font-size: 13px;
 }
 
 .conteudo h2 {
     margin-top: 30px;
+    font-size: 23px;
     color: var(--cor1);
 }
+
 
 hr {
     margin-top: 30px;
     margin: 20px auto;
 }
+
 
 .favicons img{
     width: 30px;
