@@ -291,6 +291,8 @@ hr {
 
 .galeria-fotos h2 {
     text-align: center;
+    color: white;
+    padding-top: 20px;
 }
 
 
@@ -321,7 +323,7 @@ hr {
 }
 
 
-hr {
+.conteudo hr {
     margin-top: 30px;
     margin: 20px auto;
 }
