@@ -11,6 +11,11 @@
     --cor3: linear-gradient(to right, #0C0C0C, 70%, #1D3A35, #1E3B36);
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
 body {
     font-size: 100%;
     font-family: 'Poppins', sans-serif; 
