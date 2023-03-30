@@ -21,6 +21,21 @@ body {
     font-family: 'Poppins', sans-serif; 
 }
 
+                /*ESTILIZAÇÃO DA BARRA DE ROLAGEM*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cor1);
+    border-radius: 30px;
+}
+
 
                /*BARRA DE NAVEGAÇÃO*/
 
