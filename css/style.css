@@ -41,7 +41,11 @@ body {
 
 header {
     background: #161616;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
 }
+
 
 .cabecalho {
     justify-content: space-around;
