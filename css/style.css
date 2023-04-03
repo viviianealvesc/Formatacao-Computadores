@@ -101,9 +101,9 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(to right, #0C0C0C, 70%, #1D3A35, #1E3B36);
-    height: 360px;
+    background-image: var(--cor3);
 }
+
 
 #parte1 {
     margin-left: 20px;
