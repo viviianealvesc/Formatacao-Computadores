@@ -98,6 +98,7 @@ header {
                    /*CONTEUDO 1*/
 #conteudo1 {
     display: flex;
+    height: 400px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -105,19 +106,15 @@ header {
 }
 
 
-#parte1 {
-    margin-left: 20px;
-}
-
 #parte1 h2 {
-    width: 390px; 
+    max-width: 390px; 
     margin-left: 28px;
     color: white;
 }
 
 
 #parte1 p {
-    width: 300px; 
+    max-width: 300px; 
     margin-left: 28px;
 }
 
@@ -389,12 +386,8 @@ small {
         font-size: 12px;
     }
 
-    #parte1 p {
-        width: 250px;
-    }
 
     #parte1 h2 {
-        width: 280px;
         padding-top: 35px;
     }
 
