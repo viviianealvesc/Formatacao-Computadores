@@ -103,6 +103,20 @@ header {
     align-items: center;
     justify-content: space-around;
     background-image: var(--cor3);
+    background-size: 200% 200%;
+    animation: colors 10s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 
