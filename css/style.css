@@ -132,10 +132,18 @@ header {
     margin-left: 28px;
 }
 
-#parte1 span {
+#parte1 span { 
     color: #5BD3B7;
 }
 
+.mask {
+    background: url('../image/mask.jpg');
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}
 
 hr {
     width: 50px;
