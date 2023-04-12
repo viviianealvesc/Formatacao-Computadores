@@ -70,6 +70,10 @@ header {
     color: #5BD3B7;
 }
 
+.menu a:hover {
+    color: var(--cor1);
+}
+
 .cabecalho-menu-item {
     text-decoration: none;
     color: white;
@@ -121,34 +125,27 @@ header {
 
 
 #parte1 h2 {
-    max-width: 390px; 
+    max-width: 400px; 
     margin-left: 28px;
     color: white;
 }
 
 
 #parte1 p {
-    max-width: 300px; 
+    max-width: 390px; 
     margin-left: 28px;
+    margin-top:  10px 10px;
 }
 
 #parte1 span { 
     color: #5BD3B7;
 }
 
-.mask {
-    background: url('../image/mask.jpg');
-
-    -webkit-background-clip: text;
-    background-clip: text;
-
-    color: transparent;
-}
 
 hr {
     width: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 28px;
 }
 
@@ -185,8 +182,8 @@ hr {
 }
 
 .imagem-principal {
-    width: 200px;
-    filter: brightness(75%);
+    width: 350px;
+    filter: brightness(90%);
 }
 
 
