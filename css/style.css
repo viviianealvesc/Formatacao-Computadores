@@ -49,6 +49,7 @@ header {
 
 .cabecalho {
     justify-content: space-around;
+    z-index: 2;
 }
 
 .cabecalho-menu {
@@ -120,11 +121,17 @@ header {
 }
 
 
-#parte1 h2 {
+#parte1 .texto {
     max-width: 400px; 
     margin-left: 28px;
     color: white;
 }
+
+#parte1 h2 {
+    margin-left: 28px;
+    color: white;
+}
+
 
 
 #parte1 p {
@@ -402,13 +409,13 @@ small {
     }
 
 
-    #parte1 h2 {
+    #parte1 .texto {
         padding-top: 35px;
     }
 
     #conteudo1 {
         display: block;
-        height: 390px;
+        height: 600px;
     }
 
     #conteudo1 img {
@@ -417,10 +424,6 @@ small {
         position: absolute;
         left: 70px;
         right: 70px;
-    }
-
-    #conteudo1 {
-        height: 520px;
     }
 
 
@@ -462,7 +465,7 @@ small {
     }
 
      #parte-instalacoes {
-        height: 1900px;
+        height: 1650px;
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
@@ -501,30 +504,28 @@ small {
    }
 
    #parte1 p {
-       width: 350px;
+       max-width: 350px;
    }
 
    #parte1 h2 {
-       width: 280px;
-       padding-top: 35px;
+       max-width: 280px;
    }
+
+
 
    #conteudo1 {
        display: block;
-       height: 390px;
+       height: 600px;
    }
 
    #conteudo1 img {
-    padding-top: 20px;
     width: 200px;
     position: absolute;
     left: 70px;
     right: 70px;
 }
 
-#conteudo1 {
-    height: 520px;
-}
+
 
    /*conteúdo 2*/
    #conteudo2, .caixas {
@@ -534,7 +535,7 @@ small {
 
    .caixas {
        margin-bottom: 20px;
-       width: 300px;
+       max-width: 300px;
        display: flex;
        margin: 0 auto;
    }
@@ -566,7 +567,7 @@ small {
     }
 
      #parte-instalacoes {
-        height: 1900px;   
+        height: 1500px;   
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
@@ -610,13 +611,17 @@ small {
    }
 
    #parte1 h2 {
-       width: 280px;
+    max-width: 300px;
+   }
+
+   #parte1 .texto {
+       max-width: 300px;
        padding-top: 35px;
    }
 
    #conteudo1 {
        display: block;
-       height: 390px;
+       height: 600px;
    }
 
    #conteudo1 img {
@@ -627,9 +632,6 @@ small {
     right: 70px;
 }
 
-  #conteudo1 {
-    height: 520px;
-}
 
    /*conteúdo 2*/
    #conteudo2, .caixas {
@@ -671,7 +673,7 @@ small {
     }
 
      #parte-instalacoes {
-        height: 1800px;   
+        height: 1600px;   
     }
 
      .instalacoes-conteudo, .manutencao-geral, .limpeza {
@@ -717,13 +719,14 @@ small {
        width: 480px;
    }
 
-   #parte1 h2 {
-       width: 280px;
-       padding-top: 35px;
+   #parte1 .texto {
+       width: 300px;
+       padding-top: 30px;
    }
 
+
    #conteudo1 {
-       height: 290px;
+       height: 400px;
    }
 
 
@@ -749,6 +752,10 @@ small {
    .caixa-vantagens1, .caixa-vantagens2 {
        margin-left: 13px;
        margin-bottom: 12px;
+   }
+
+   .imagem-principal {
+    width: 300px;
    }
 
    /*Instalações*/
