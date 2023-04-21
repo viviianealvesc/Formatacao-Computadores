@@ -344,6 +344,64 @@ hr {
     max-width: 800px;
 }
 
+                  /*LANDING PAGE*/
+#marketing {
+    height: 1050px; 
+    background-image: var(--cor3);
+    background-size: 200% 200%;   
+    animation: animacao 10s ease infinite;
+}
+
+@keyframes animacao {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.conteudo-marketing h2, h3 {
+    text-align: center;
+    color: var(--cor1);
+    padding-top: 20px;
+}
+
+.conteudo-marketing h3 {
+    color: white;
+}
+
+.conteudo-marketing div {
+    margin-top: 20px;
+}
+
+
+
+.card {
+    display: flex;
+    place-items: center;
+    max-width: 400px;
+    height: 200px;
+    background: #68838b3a;
+    border-radius: 30px;
+    margin: 0 auto;
+
+}
+
+.card p {
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+
+
+
 
                    /*FOOTER*/
 .rodape {
