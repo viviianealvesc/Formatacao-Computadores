@@ -983,7 +983,7 @@ small {
     }
 
     .conteudo-marketing,
-    .conteudo-landing-page, h2, h3 {
+    .conteudo-landing-page h2, h3 {
         margin: 5px;
     }
 
